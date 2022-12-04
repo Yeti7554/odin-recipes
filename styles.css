@@ -32,3 +32,17 @@ body {
     font-size: 5px;
     text-align: center;
 }
+
+.container {
+    display: flex;
+}
+
+
+.container div {
+    border: 2px solid darkgreen;
+    flex: 1;
+    height: 50px;
+    background-color: rgb(177, 214, 177);
+    text-align: center;
+    padding-top: 25px;
+}
