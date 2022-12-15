@@ -35,14 +35,16 @@ body {
 
 .container {
     display: flex;
+    align-items: center;
 }
 
 
 .container div {
     border: 2px solid darkgreen;
+    border-radius: 30%;
     flex: 1;
-    height: 50px;
+    height: 30px;
     background-color: rgb(177, 214, 177);
     text-align: center;
-    padding-top: 25px;
+    padding-top: 15px;
 }
