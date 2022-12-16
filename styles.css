@@ -1,3 +1,6 @@
+/* Just a note that these are the hex codes that we are using here */
+/* https://colorswall.com/palette/69923 */
+
 body {
     display: flex;
     flex-direction: column;
@@ -30,4 +33,57 @@ body {
 
 .banner-image {
     border-radius: 8px;
+}
+
+.featured-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 36px;
+}
+
+.featured-links {
+    display: flex;
+    gap: 36px;
+    height: 300px;
+}
+
+.more {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 24px;
+    background-color: #e25f1e;
+    border-radius: 12px;
+    padding: 36px;
+    color: white;
+}
+
+.more-text {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.more-title {
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.amazon-button {
+    background-color: #e25f1e;
+    color: wheat;
+    font-size: 24px;
+    font-weight: 700;
+    border-radius: 12px;
+    height: 45px;
+    width: 120px;
+    border: 4px solid white;
+}
+
+.footer {
+    display: flex;
+    background-color: #4a6818;
+    height: 100px;
 }
