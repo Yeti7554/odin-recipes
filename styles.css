@@ -36,6 +36,8 @@ body {
 }
 
 .featured-container {
+    padding-top: 36px;
+    padding-bottom: 36px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -45,8 +47,33 @@ body {
 
 .featured-links {
     display: flex;
+    flex-direction: row;
     gap: 36px;
-    height: 300px;
+    align-items: baseline;
+    justify-content: center;
+}
+
+.card-image {
+    width: auto;
+    height: 180px;
+    border-radius: 12px;
+    border: 2px solid white;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.featured-link-texts {
+    text-decoration: none;
+    color: #2a2812;
+    font-weight: bolder;
+    font-size: 18px;
 }
 
 .more {
@@ -87,3 +114,4 @@ body {
     background-color: #4a6818;
     height: 100px;
 }
+
