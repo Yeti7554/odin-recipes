@@ -20,6 +20,11 @@ body {
     color: aliceblue;
 }
 
+.header-links {
+    text-decoration: none;
+    color: aliceblue;
+}
+
 .container-2 {
     display: flex;
     padding-top: 30px;
@@ -107,6 +112,18 @@ body {
     height: 45px;
     width: 120px;
     border: 4px solid white;
+}
+
+.recipe-title{
+    text-align: center;
+}
+
+.recipe-body {
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+    align-items: center;
+   
 }
 
 .footer {
