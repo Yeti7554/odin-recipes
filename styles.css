@@ -129,6 +129,7 @@ body {
 .footer {
     display: flex;
     background-color: #4a6818;
-    height: 100px;
+    height: 72px;
+    justify-self: flex-end;
 }
 
